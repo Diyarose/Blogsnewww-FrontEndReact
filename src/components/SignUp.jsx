@@ -76,7 +76,7 @@ const SignUp = () => {
                             <input type="password" name="conpass" id="" className="form-control" value={data.conpass} onChange={inputHandler} />
                         </div>
                         <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                            <center><button className="btn btn-success" onClick={readValue}>SIGNUP</button></center><button className="btn btn-success" onClick={readValue}>SIGNUP</button>
+                            <center><button className="btn btn-success" onClick={readValue}>SIGNUP</button></center>
                         </div>
                         <div>
                         <center><Link class="new user" to="/">Login</Link></center>
