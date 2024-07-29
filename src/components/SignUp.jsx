@@ -27,7 +27,7 @@ const SignUp = () => {
                         if(response.data.status=="success")
                             {
                                 sessionStorage.setItem("token",response.data.token)
-                                sessionStorage.setItem("userid",response.data.userid)
+                                sessionStorage.setItem("userId",response.data.userId)
                                 navigate("/")
                             }
                         else{
